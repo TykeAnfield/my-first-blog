@@ -17,13 +17,17 @@ def post_edit(requests):
 
 @login_required
 def post_draft_list(requests):
-    [...]
+    posts = Post.objects.filter(published_date__isnull=True).order_by('created_date')
+    return render(request, 'blog/post_draft_list.html', {'posts': posts})
 
 @login_required
-def post_remove(requests):
-    [...]
+def post_remove(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    post.delete()
+    return redirect('post_list')
 
 @login_required
-def post_publish(requests):
-    [...]
-    
+def post_publish(requests, pk):
+    post = get_object_or_404(Post, pk=pk)
+    post.publish()
+    return redirect('post_detail', pk=pk)
