@@ -13,3 +13,40 @@
 <a class="btn btn-default" href=""></a>
 
 <div data-gb-custom-block data-tag="url" data-0='post_remove'></div>"><span class="glyphicon glyphicon-remove"></span>
+
+<hr>
+
+<div data-gb-custom-block data-tag="for"></div>
+
+    
+
+<div data-gb-custom-block data-tag="if"></div>
+
+    <div class="comment">
+        <div class="date">
+            {{ comment.created_date }}
+            
+
+<div data-gb-custom-block data-tag="if"></div>
+
+                <a class="btn btn-default" href=""></a>
+
+                <div data-gb-custom-block data-tag="url" data-0='comment_remove'><span class="glyphicon glyphicon-remove"></span>
+                    
+                <a class="btn btn-default" href=""></a>
+                <div data-gb-custom-block data-tag="url" data-0='comment_approve'><span class="glyphicon glyphicon-ok"></span>
+            </div>
+
+        </div>
+        <strong>{{ comment.author }}</strong>
+        <p>{{ comment.text|linebreaks }}</p>
+    </div>
+    
+
+</div>
+
+<div data-gb-custom-block data-tag="empty">
+
+    <p>No comments here yet :(</p>
+
+</div>
