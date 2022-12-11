@@ -81,7 +81,7 @@ future @ file:///C:/ci/future_1607568713721/work
 gensim @ file:///C:/ci/gensim_1646825438310/work
 glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
 greenlet @ file:///C:/ci/greenlet_1628888275363/work
-gunicorn==20.1.0
+
 h5py @ file:///C:/ci/h5py_1659089875384/work
 HeapDict @ file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work
 holoviews @ file:///C:/Windows/TEMP/abs_fb9d2988-9681-46b6-b9ab-190cfecd15d7uinyq_4z/croots/recipe/holoviews_1658171511842/work
@@ -304,7 +304,7 @@ wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 websocket-client @ file:///C:/ci/websocket-client_1614804375980/work
 Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
-whitenoise==6.2.0
+
 widgetsnbextension @ file:///C:/ci/widgetsnbextension_1644991377168/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
 win-unicode-console==0.5
